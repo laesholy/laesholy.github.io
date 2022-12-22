@@ -183,7 +183,7 @@ html{
 
 #slider .text-content{
     position: absolute;
-    color: #fff;
+    color: rgb(255, 0, 0);
     bottom: 120px;
     left: 50%;
     transform: translateX(-50%) ;
@@ -445,20 +445,20 @@ html{
     color: rgba(0, 0, 0, 0.3);
 
 }
-#footer .copyright{min-height: 60px;
+#footer .copyright{
     margin-top: 15px;
     color: rgba(216, 35, 35, 0.6);
 }
 #footer .copyright2{
     margin-top: 15px;
-    color: rgba(0, 0, 0, 0.6);
-}
-#footer .copyright a{
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(231, 21, 21, 0.6);
 }
 #footer .copyright a{
    text-decoration: none;
+   line-height: 30px;
+   color: rgba(228, 36, 36, 0.6);
 }
+
 @keyframes modalFadein {
     from{
         opacity: 0;
